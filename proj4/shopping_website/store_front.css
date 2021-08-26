@@ -1,0 +1,124 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+}
+nav
+{
+  background-color: #000000;
+  color: rgba(255,255,255,0.9);
+  font-family: 'Varela Round', sans-serif;
+  height: 60px;
+  padding-bottom:5px;
+  display: flex;
+  font-size: 20px;
+}
+.logo img
+{
+max-width: 180px;
+margin-left: 40px;
+}
+nav ul
+{
+  margin-left: auto;
+}
+nav li
+{
+  list-style: none;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bolder;
+  display: inline-block;
+  line-height: 60px;
+  position: relative;
+  top: 2.5px;
+}
+.all_links
+{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+}
+.each
+{
+  /* margin-right: 10px; */
+  padding: 0px 20px;
+  transition:border,background-color 0.5s;
+}
+.all_links .each:hover
+{
+  background-color:#181818;
+  border-bottom: 5px solid white;
+}
+
+nav li a
+{
+  text-decoration: none;
+  color: white;
+}
+.top_back_link
+{
+  height:35px;
+  background-color: #000000;
+  border-bottom: 2px solid #181818;
+  font-family: 'Varela Round', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bolder;
+  justify-content: center;
+}
+.top_back_link a
+{
+  text-decoration: none;
+color:rgba(255,255,255,0.5);
+letter-spacing: 1.9px;
+}
+
+.bar
+{
+  border: none;
+  width:100%;
+  /* position: absolute;
+  top:0px;
+  left:0px; */
+  height:102px;
+}
+.store_open
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.shop_by_category
+{
+  margin: 30px 20px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.shop_by_category img
+{
+  height: 241px;
+  width: 204px;
+  transition: 0.2s ease-in-out;
+}
+.img_cont
+{
+  overflow: hidden;
+}
+.shop_by_category a:hover img
+{
+  transform: scale(1.2,1.2);
+}
+.shop_header
+{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color:#000000;
+  text-align: center;
+  margin-top:80px;
+}

@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://kit.fontawesome.com/afc6005920.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="store.css">
+  </head>
+  <body>
+    <div class="page-1">
+      <!-- NavBar Code -->
+      <!-- <iframe src="store_nav.html" class="bar"></iframe> -->
+      <div class="top_back_link">
+           <a href="../Front_page_naren/frontpage.html" ><p>CrickBuzz</p></a>
+      </div>
+      <nav>
+        <a href="../Store_naren/store_front.html">
+          <div class="logo">
+            <img src="wtc logo.PNG" alt="">
+          </div>
+        </a>
+
+        <ul>
+          <div class="all_links">
+            <div class="each">
+              <li><a href="#">Shop</a></li>
+            </div>
+            <div class="each">
+              <li><a href="#round-tee">Round Neck T-Shirts</a></li>
+            </div>
+            <div class="each">
+              <li><a href="#polo-tee">Polo T-Shirts</a></li>
+            </div>
+            <div class="each">
+              <li><a href="#hoodies">Hoodies</a></li>
+            </div>
+
+            <div class="each">
+              <li><a href="#acc">Accessories</a></li>
+            </div>
+            <div class="each">
+              <li onclick="page_2()" id="cart_touch">Shopping Cart</li>
+            </div>
+          </div>
+        </ul>
+      </nav>
+      <!-- Nav Bar end -->
+            <i class="fas fa-shopping-cart" id="cart_icon"></i>
+      <span class="tot-cart-items">0</span>
+      <div class="cart_added_msg">
+         <span>Added to cart</span>
+         <i class="far fa-check-circle"></i>
+      </div>
+      <div class="container">
+        <p id="round-tee" class="head">Round Necked T-Shirts</p>
+         <div class="product">
+               <div class="product_img">
+                    <img src="01-t_black_.jpg" alt="">
+               </div>
+                 <div class="product_content">
+                      <p class="pdt_name">ICC WTC FINAL Round Neck Tee | Unisex | Black Gradient</p>
+                      <p id="price">$1500</p>
+                      <div class="purchase_btn">
+                         <button type="button" name="button" onclick="quick_view(0)">View</button>
+                         <button type="button" name="button"  class="add_to">Add To Cart</button>
+                      </div>
+                 </div>
+         </div>
+
+         <div class="product">
+               <div class="product_img">
+                    <img src="Solidarity-Tshirt-Men.jpg" alt="">
+               </div>
+                 <div class="product_content">
+                      <p class="pdt_name">ICC WTC FINAL relief Round Neck Tee | Unisex | White</p>
+                      <p id="price">$900</p>
+                      <div class="purchase_btn">
+                         <button type="button" name="button" onclick="quick_view(1)">View</button>
+                         <button type="button" name="button" class="add_to">Add To Cart</button>
+                      </div>
+                 </div>
+         </div>
+
+         <div class="product">
+               <div class="product_img">
+                    <img src="t-ind_2.jpg" alt="">
+               </div>
+                 <div class="product_content">
+                      <p class="pdt_name">ICC WTC FINAL Round Neck Tee | Unisex | Blue | Team India</p>
+                      <p id="price">$1500</p>
+                      <div class="purchase_btn">
+                         <button type="button" name="button" onclick="quick_view(2)">View</button>
+                         <button type="button" name="button" class="add_to">Add To Cart</button>
+                      </div>
+                 </div>
+         </div>
+
+
+
+         <div class="product">
+               <div class="product_img">
+                    <img src="Womens-Solidarity-T-Shirt.jpg" alt="">
+               </div>
+                 <div class="product_content">
+                      <p class="pdt_name">ICC WTC FINAL relief Round Neck Tee | Women | White </p>
+                      <p id="price">$900</p>
+                      <div class="purchase_btn">
+                         <button type="button" name="button" onclick="quick_view(3)">View</button>
+                         <button type="button" name="button" class="add_to">Add To Cart</button>
+                      </div>
+                 </div>
+         </div>
+
+      <!-- POLO -->
+         <p class="head" id="polo-tee">Polo T-Shirts</p>
+          <div class="product">
+                <div class="product_img">
+                     <img src="Polo-Blue_India_.jpg" alt="">
+                </div>
+                  <div class="product_content">
+                       <p class="pdt_name">ICC WTC FINAL Polo | Unisex | Retro Blue | Team India</p>
+                       <p id="price">$2000</p>
+                       <div class="purchase_btn">
+                          <button type="button" name="button" onclick="quick_view(4)">View</button>
+                          <button type="button" name="button" class="add_to">Add To Cart</button>
+                       </div>
+                  </div>
+          </div>
+
+          <div class="product">
+                <div class="product_img">
+                     <img src="Polo-Black_NZ_03.jpg" alt="">
+                </div>
+                  <div class="product_content">
+                       <p class="pdt_name">ICC WTC FINAL Polo | Unisex | Black | Team New Zealand</p>
+                       <p id="price">$2000</p>
+                       <div class="purchase_btn">
+                          <button type="button" name="button" onclick="quick_view(5)">View</button>
+                          <button type="button" name="button" class="add_to">Add To Cart</button>
+                       </div>
+                  </div>
+          </div>
+
+          <div class="product">
+                <div class="product_img">
+                     <img src="Polo-White_India_.jpg" alt="">
+                </div>
+                  <div class="product_content">
+                       <p class="pdt_name">ICC WTC FINAL Polo | Unisex | White – Team India</p>
+                       <p id="price">$1250</p>
+                       <div class="purchase_btn">
+                          <button type="button" name="button" onclick="quick_view(6)">View</button>
+                          <button type="button" name="button" class="add_to">Add To Cart</button>
+                       </div>
+                  </div>
+          </div>
+          <div class="product">
+                <div class="product_img">
+                     <img src="Polo_women_tshirt-.jpg" alt="">
+                </div>
+                  <div class="product_content">
+                       <p class="pdt_name">ICC WTC FINAL Polo Relief Tee | Women’s | White</p>
+                       <p id="price">$1150</p>
+                       <div class="purchase_btn">
+                          <button type="button" name="button" onclick="quick_view(7)">View</button>
+                          <button type="button" name="button" class="add_to">Add To Cart</button>
+                       </div>
+                  </div>
+          </div>
+          <div class="product">
+                <div class="product_img">
+                     <img src="Solidarity-Polo.jpg" alt="">
+                </div>
+                  <div class="product_content">
+                       <p class="pdt_name">ICC WTC FINAL COVID-19 relief Polo | Unisex | White</p>
+                       <p id="price">$1000</p>
+                       <div class="purchase_btn">
+                          <button type="button" name="button" onclick="quick_view(8)">View</button>
+                          <button type="button" name="button" class="add_to">Add To Cart</button>
+                       </div>
+                  </div>
+          </div>
+      <!-- Hoodies -->
+      <p id="hoodies" class="head">Hoodies</p>
+      <div class="product" id="hb">
+         <div class="product_img">
+              <img src="Hoodie-Blue.jpg"  alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Hoodie | Unisex | Retro Blue</p>
+                <p id="price">$3500</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(9)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+
+      <div class="product">
+         <div class="product_img">
+              <img src="Hoodie-Grey_2.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Hoodie – Unisex | Heather Grey</p>
+                <p id="price">$200</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(10)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+      <!-- Accessories -->
+      <p class="head" id="acc">Accessories</p>
+      <div class="product">
+         <div class="product_img">
+              <img src="16-Sipper-3.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Bottle | Black</p>
+                <p id="price">$700</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(11)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+
+      <div class="product">
+         <div class="product_img">
+              <img src="18-Mask_2-2.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Face Mask | Grey</p>
+                <p id="price">$300</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(12)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+
+      <div class="product">
+         <div class="product_img">
+              <img src="Umpire-Hat_2.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Hat | White</p>
+                <p id="price">$700</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(13)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+      <div class="product">
+         <div class="product_img">
+              <img src="Cap-Blue_2.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Cap | Unisex | Retro Blue</p>
+                <p id="price">$600</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(14)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+      <div class="product">
+         <div class="product_img">
+              <img src="20-Fridge-Magnet-.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Metallic Fridge Magnet | Black</p>
+                <p id="price">$500</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(15)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+      <div class="product">
+         <div class="product_img">
+              <img src="19-Fridge-Magnet.jpg" alt="">
+         </div>
+           <div class="product_content">
+                <p class="pdt_name">ICC WTC FINAL Fridge Magnet | Black</p>
+                <p id="price">$300</p>
+                <div class="purchase_btn">
+                   <button type="button" name="button" onclick="quick_view(16)">View</button>
+                   <button type="button" name="button" class="add_to">Add To Cart</button>
+                </div>
+           </div>
+      </div>
+
+
+      </div>
+
+
+
+
+    </div>
+<!-- shopping_cart_container -->
+<div class="shopping_cart_container">
+  <!-- <iframe src="store_nav.html" class="bar"></iframe> -->
+    <i class="fas fa-times-circle" id="close_cart" onclick="pop_of()"></i>
+    <!-- Pop-up for limit exceeded -->
+    <div class="limit_add">
+       <span>Product Quantity Limit Reached</span>
+    </div>
+    <p class="head_cart">Shopping Cart</p>
+<div class="divisions">
+  <div class="cart_pop">
+
+
+  </div>
+  <div class="bill_generator">
+
+  </div>
+</div>
+
+    <div class="bottom">
+         <div class="tot_price">
+              <span >Your Cart Subtotal :- </span>
+              <span>₹</span>
+              <span id="sub_total">1250</span>
+         </div>
+         <div class="buy_now">
+             <button type="button" name="button" id="checkout_btn" onclick="checkout()">PROCEED TO CHECKOUT</button>
+         </div>
+    </div>
+</div>
+<!-- When Cart is emptry this div comes -->
+<div class="page_03_cart">
+    <img src="cart_img.png" alt="">
+    <p>Your Cart is Empty</p>
+    <button type="button" name="button" id="cart_empty_shop" onclick="pop_of()">Shop Now</button>
+</div>
+<!-- Quick View -->
+<div class="quick_view_cont">
+  <div class="view_details_cont">
+    <i class="far fa-times-circle" id="close_view" onclick="close_quick_view()"></i>
+    <p class="view_header">Product Details</p>
+    <div class="view_content">
+
+      <div class="view_img_head">
+        <img id="quick_view_img" src="Solidarity-Polo.jpg" alt="">
+        <div class="">
+          <p id="quick_view_name">ICC WTC FINAL Lapel Pin | Black</p>
+          <p id="quick_view_price">$200</p>
+        </div>
+      </div>
+
+      <p id="quick_view_para">Black Lapel Pin made of durable and high-quality metal. Add a stylish accessory to enhance the richness of your overall look with these classy lapel pins which come with the ICC WTC 2021 logos pasted on them. </p>
+      <ul>
+        <li>High-Grade Metal</li>
+        <li>Stylish Logo</li>
+        <li>Classy Accessory</li>
+        <li>Manufactured by Tech Mahindra</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- Quick View Cont -->
+
+<!-- Bill Details -->
+<div class="page_bill">
+  <div class="bill_cont">
+    <i class="fas fa-arrow-circle-left" id="bill_back" onclick="bill_prev()"></i>
+
+    <form id="bill_form" onsubmit="event.preventDefault(); bill_verified(1);">
+      <div class="form_container">
+        <p>Billing Details</p>
+        <div class="eachline">
+          <input id="first_name" type="text" placeholder="FirstName*" pattern="[a-zA-Z]{1,}" oninvalid="this.setCustomValidity('Please Enter Your First Name (only Alphabets)')" oninput="this.setCustomValidity('')" required>
+          <input id="last_name" type="text" placeholder="LastName*" pattern="[a-zA-Z]{1,}" oninvalid="this.setCustomValidity('Please Enter Your First Name (only Alphabets)')" oninput="this.setCustomValidity('')" required>
+        </div>
+        <div class="eachline">
+          <input id="address" class="full-width" type="text" placeholder="Address*" required oninvalid="this.setCustomValidity('Enter Your Address (required field) ')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="eachline">
+          <input id="country" type="text" placeholder="Country*" required oninvalid="this.setCustomValidity('Please Enter Your Country (required field)')" oninput="this.setCustomValidity('')">
+          <input id="state" type="text" placeholder="State*" required oninvalid="this.setCustomValidity('Please Enter Your State (required field)')" oninput="this.setCustomValidity('')">
+        </div>
+        <div class="eachline">
+          <input id="email" class="full-width" type="email" placeholder="Email*" required>
+        </div>
+        <div class="eachline">
+          <input id="phone" class="full-width" type="text" pattern="[0-9]{10}" oninvalid="this.setCustomValidity('Enter 10 digits Valid Phone-Number')" oninput="this.setCustomValidity('')" placeholder="Phone*" required>
+          <button type="submit" name="button" id="bill_det_cont">Continue</button>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+<!-- Bill Detaails End -->
+<!-- Payment Starts -->
+<div class="payment_div">
+  <form onsubmit="event.preventDefault(); payment_success();" id="payment_form">
+    <p class="payment_cric">CrickBuzz</p>
+    <div class="payment_page">
+
+      <div class="left_side">
+        <div class="address_container">
+          <p class="address_header">Shipping Address</p>
+          <div class="address_content">
+            <p>Narendhiran</p>
+            <p>B-139 Rajiv Nagar</p>
+            <p>TamilNadu , India</p>
+          </div>
+           <span style="cursor:pointer;text-decoration:underline" onclick="edit_address()"><a>Edit Address</a></span>
+        </div>
+        <div class="payment_container">
+          <p class="payment_header">Payment Deatils</p>
+          <div class="payment_inputs">
+            <div class="top_inp_pay">
+              <div class="division_input">
+                <label>CardHolder's Name</label>
+                <input type="text"  pattern="[a-zA-Z]{1,}" required  oninvalid="this.setCustomValidity('Please Enter Valid Name')" oninput="this.setCustomValidity('')">
+              </div>
+              <div class="division_input">
+                <label>Card Number</label>
+                <input type="text"  pattern="[0-9]{16}"  required  oninvalid="this.setCustomValidity('Enter Valid 16 Digits Card Number')" oninput="this.setCustomValidity('')">
+              </div>
+            
+            </div>
+            <div class="down_inp_pay">
+              <div class="division_input">
+                <label for="month">Expiry Month</label>
+                <select id="month" name="month">
+                  <option value="Janauary">Janauary</option>
+                  <option value="February">February</option>
+                  <option value="March">March</option>
+                  <option value="April">April</option>
+                  <option value="May">May</option>
+                  <option value="June">June</option>
+                  <option value="July">July</option>
+                  <option value="August">August</option>
+                  <option value="September">September</option>
+                  <option value="October">October</option>
+                  <option value="November">November</option>
+                  <option value="December">December</option>
+                </select>
+              </div>
+              <div class="division_input">
+                <label for="year">Expiry Year</label>
+                <select id="year" name="year">
+                  <option value=2021>2021</option>
+                  <option value=2022>2022</option>
+                  <option value=2023>2023</option>
+                  <option value=2024>2024</option>
+                  <option value=2025>2025</option>
+                  <option value=2026>2026</option>
+                  <option value=2027>2027</option>
+                  <option value=2028>2028</option>
+                </select>
+              </div>
+              <div class="division_input">
+                <label>CVV</label>
+                <input type="password"  pattern="[0-9]{3}"  required  oninvalid="this.setCustomValidity('Enter Valid 3 Digit CVV')" oninput="this.setCustomValidity('')">
+              </div>
+            </div>
+            <div class="bott_inp_pay">
+              
+              <div class="division_input" style="text-align:center">
+                <label>Discount coupon number:(if any)</label>
+                <input style="width:40%" type="text"  pattern="[0-9]{3}">
+              </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="right_side">
+        <div class="order_summary">
+          <p class="order_header">Order Summary</p>
+          <div class="order_product_add">
+
+          </div>
+
+          <!--  -->
+          <hr>
+          <div class="total_payment_container">
+              <p>Total</p>
+              <p style="font-family: 'Josefin Sans', sans-serif;" class="payment_total_price"></p>
+          </div>
+          <div class="order_payment_button_div">
+             <button type="submit" name="button" id="order_payment_button">PAY</button>
+             <span style="cursor:pointer;text-decoration:underline;margin-left:20px" onclick="edit_order()"><a>Edit Order</a></span>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </form>
+
+</div>
+<!-- Payment Ends -->
+<!-- Payment Success -->
+<div class="payment_done_pop">
+  <div class="payment_success_msg_container">
+     <p class="success_header">Payment success</p>
+     <img src="payment_success.PNG" alt="">
+     <button type="button" name="button" onclick="load_new()">Home</button>
+  </div>
+<!-- Payment Ends -->
+
+
+    <script src="store.js"></script>
+  </body>
+</html>
